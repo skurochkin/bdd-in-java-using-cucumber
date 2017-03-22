@@ -1,6 +1,10 @@
 @uitest
 Feature: Product Search
 
+  As store user
+  I want to be able search
+  So I can see the result
+
   Scenario: Search for USB-C to HDMI cable
     Given user on home page of "www.walmart.com"
     When user search for "USB-C to HDMI"
